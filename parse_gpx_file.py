@@ -58,16 +58,7 @@ class Activity:
 
 
 def main():
-    # file_name = r"C:\Users\User1\Desktop\Temp\Strava\2023-07-16.gpx"
-    # file_name = r"C:\Users\User1\Desktop\Temp\Strava\2023-07-16-2.gpx"
-    # file_name = r"C:\Users\User1\Desktop\Temp\Strava\2023-07-16-3.gpx"
     file_name = r"C:\Users\User1\Desktop\Temp\Strava\Night_Ride.gpx"
-
-    # soup = soupify(file_name)
-    # activity_date = get_activity_date(soup)
-    # start_time = get_start_time(soup)
-    # finish_time = get_finish_time(soup)
-    # distance = get_distance(soup)
     bike = Activity(file_name)
     print(bike.activity_date)
     print(bike.start_time)
